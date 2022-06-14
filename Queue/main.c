@@ -27,25 +27,31 @@ int main() {
 
 	dequeue(&KupatCholim, &current);
 	printPatient(current);
+	relesePatient(current);
 
 	enqueue(&Danna, &KupatCholim);
 	printQueue(&KupatCholim);
 	dequeue(&KupatCholim, &current);
 	printQueue(&KupatCholim);
 	printPatient(current);
+	relesePatient(current);
 
 	dequeue(&KupatCholim, &current);
 	printQueue(&KupatCholim);
 	printPatient(current);
+	relesePatient(current);
 
+	initPatient(&Yosef, "Yosef Cohav");
 	enqueue(&Yosef, &KupatCholim);
 	dequeue(&KupatCholim, &current);
 	printQueue(&KupatCholim);
 	printPatient(current);
+	relesePatient(current);
 
 	dequeue(&KupatCholim, &current);
 	printQueue(&KupatCholim);
 	printPatient(current);
+	relesePatient(current);
 
 	enqueue(&Ruth, &KupatCholim);
 	enqueue(&Haim, &KupatCholim);
@@ -53,13 +59,15 @@ int main() {
 
 	dequeue(&KupatCholim, &current);
 	printPatient(current);
+	relesePatient(current);
 	dequeue(&KupatCholim, &current);
 	printQueue(&KupatCholim);
 	printPatient(current);
+	relesePatient(current);
 
 	dequeue(&KupatCholim, &current);
 	printQueue(&KupatCholim);
 	printPatient(current);
-
+	
 	return 0;
 }
