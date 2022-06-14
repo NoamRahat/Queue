@@ -1,6 +1,0 @@
-﻿  main.c
-  Queue.c
-C:\Users\User\Desktop\Queue\Queue.c(13,28): warning C4013: 'malloc' undefined; assuming extern returning int
-C:\Users\User\Desktop\Queue\Queue.c(42,6): warning C4013: 'free' undefined; assuming extern returning int
-  Generating Code...
-  Queue.vcxproj -> C:\Users\User\Desktop\Queue\Debug\Queue.exe
