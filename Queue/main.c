@@ -67,7 +67,6 @@ int main() {
 
 	dequeue(&KupatCholim, &current);
 	printQueue(&KupatCholim);
-	printPatient(current);
 	
 	return 0;
 }
