@@ -1,0 +1,4 @@
+﻿  Queue.c
+C:\Users\User\source\repos\temp\Queue.c(29,28): warning C4013: 'malloc' undefined; assuming extern returning int
+C:\Users\User\source\repos\temp\Queue.c(58,6): warning C4013: 'free' undefined; assuming extern returning int
+  Queue.vcxproj -> C:\Users\User\Desktop\Queue\Debug\Queue.exe
